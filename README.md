@@ -55,12 +55,13 @@ Install a python tool for conversion to mbtiles format:
 	$ ./mb-util --scheme=xyz --image_format=png   ../tiles/ coastline.mbtiles
 
 The output is a file 'coastline.mbtiles'.
+If you want to test the tiles database, use [mbtiles-server](https://github.com/chelm/mbtiles-server).
 
 
 Install map in Signal K server
 ==============================
 
-Move this file to 'signalk-server-node/public/mapcache'.
+Move this file to **signalk-server-node/public/mapcache**.
 After reboot you will see the map here:
 http://localhost:3000/signalk/v1/api/resources/charts
 
