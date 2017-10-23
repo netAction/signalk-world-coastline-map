@@ -6,9 +6,14 @@ It adds a map of worldwide coastlines in zoom level 0-9.
 The format ist Mapbox MBTiles, a SQLite database file that contains all 350000 PNG tiles.
 Signal K stores all maps in the directory 'public/mapcache/'.
 
+The repository itself does not include the map but depends on it. The map file is a separate NPM package with a size of 800MB.
+
 
 How the Tiles are made
 ======================
+
+The tiles are rendered by an online service and packed into one single MBTiles file.
+
 
 Tile design
 -----------
@@ -60,6 +65,8 @@ If you want to test the tiles database, use [mbtiles-server](https://github.com/
 
 Install map in Signal K server
 ==============================
+
+If you can not install the map using this plugin in the Signal K app store, do this:
 
 Move this file to **signalk-server-node/public/mapcache**.
 After reboot you will see the map here:
