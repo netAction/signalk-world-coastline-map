@@ -1,6 +1,6 @@
 {
   "name": "signalk-world-coastline-map",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Coastline map of the world in Mapbox MBTiles format for Signal K marine server (800MB)",
   "main": "index.js",
   "scripts": {
