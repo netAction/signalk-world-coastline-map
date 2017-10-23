@@ -1,2 +1,2 @@
-# Use Git Large File Storage for Tiles Database
-*.mbtiles filter=lfs -crlf
+node_modules
+npm-debug.log*
