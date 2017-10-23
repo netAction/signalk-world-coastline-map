@@ -1,6 +1,6 @@
 {
   "name": "signalk-world-coastline-map",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Coastline map of the world in Mapbox MBTiles format for Signal K marine server (800MB)",
   "main": "index.js",
   "scripts": {
@@ -13,13 +13,10 @@
     "url": "git+https://github.com/netAction/signalk-world-coastline-map.git"
   },
   "keywords": [
-    "signalk-node-server-plugin"
+    "signalk-webapp"
   ],
   "author": "Thomas Schmidt (netAction)",
   "license": "WTFPL",
-  "keywords": [
-    "signalk-webapp"
-  ],
   "bugs": {
     "url": "https://github.com/netAction/signalk-world-coastline-map/issues"
   },
